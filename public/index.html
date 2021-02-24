@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Welcome Home</title>
+        <link rel="stylesheet" href="/style.css">
+        <script src="/script.js" defer></script>
+    </head>
+
+    <body class="bod">
+        <form>
+            <label for="category">Choose Category:</label><br>
+            <select name="category" id="category">
+                <option value="grocery">Grocery</option>
+                <option value="fastFood">FastFood</option>
+                <option value="needs">Needs</option>
+                <option value="rent/bills">Rent/Bills</option>
+                <option value="videogames">VideoGames</option>
+                <option value="random amazon stuff">AmazonPurchases</option>
+            </select>
+            <br>
+            <label for="Money">How Much Money</label>
+            <input type="text" id=money><br><br>
+        </form>
+        <div id="submit">
+            <button type=submit
+            class = "button"
+            onclick="sendData()">
+            </button>
+        </div>
+    </body>
